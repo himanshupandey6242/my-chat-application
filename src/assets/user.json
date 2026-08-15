@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Himanshu",
+    "img": "https://i.pravatar.cc/150?img=3",
+    "messages": [
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, coming in 10 mins", "sender": "me" },
+      { "text": "Yes, coming in 10 mins Yes, coming in 10 mins Yes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 minsYes, coming in 10 mins", "sender": "me" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Rahul",
+    "img": "https://i.pravatar.cc/150?img=5",
+    "messages": [
+      { "text": "Let's complete the project tonight.", "sender": "them" },
+      { "text": "Sure, I’ll join after dinner", "sender": "me" },
+       { "text": "Let's complete the project tonight.", "sender": "them" },
+      { "text": "Sure, I’ll join after dinner", "sender": "me" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Aman",
+    "img": "https://i.pravatar.cc/150?img=8",
+    "messages": [
+      { "text": "I pushed the code, please check.", "sender": "them" },
+      { "text": "Reviewing it now", "sender": "me" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Priya",
+    "img": "https://i.pravatar.cc/150?img=10",
+    "messages": [
+      { "text": "Meeting at 5 PM, don't be late!", "sender": "them" },
+      { "text": "Got it, I’ll be there", "sender": "me" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Arun",
+    "img": "https://i.pravatar.cc/150?img=3",
+    "messages": [
+      { "text": "Hey bro, are you coming today?", "sender": "them" },
+      { "text": "Yes, on the way ", "sender": "me" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Mohit",
+    "img": "https://i.pravatar.cc/150?img=5",
+    "messages": [
+      { "text": "Let's complete the project tonight.", "sender": "them" },
+      { "text": "Okay, let's do it", "sender": "me" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Aman 2",
+    "img": "https://i.pravatar.cc/150?img=8",
+    "messages": [
+      { "text": "I pushed the code, please check.", "sender": "them" },
+      { "text": "Looks good ", "sender": "me" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Alexa",
+    "img": "https://i.pravatar.cc/150?img=10",
+    "messages": [
+      { "text": "Meeting at 5 PM, don't be late!", "sender": "them" },
+      { "text": "Reminder set!", "sender": "me" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Aman 3",
+    "img": "https://i.pravatar.cc/150?img=8",
+    "messages": [
+      { "text": "I pushed the code, please check.", "sender": "them" },
+      { "text": "Will review soon", "sender": "me" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Alexa 2",
+    "img": "https://i.pravatar.cc/150?img=10",
+    "messages": [
+      { "text": "Meeting at 5 PM, don't be late!", "sender": "them" },
+      { "text": "Okay ", "sender": "me" }
+    ]
+  },
+   {
+    "id": 11,
+    "name": "Aman 4",
+    "img": "https://i.pravatar.cc/150?img=8",
+    "messages": [
+      { "text": "I pushed the code, please check.", "sender": "them" },
+      { "text": "Will check it out", "sender": "me" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Alexa 3",
+    "img": "https://i.pravatar.cc/150?img=10",
+    "messages": [
+      { "text": "Meeting at 5 PM, don't be late!", "sender": "them" },
+      { "text": "Noted!", "sender": "me" }
+    ]
+  },
+   {
+    "id": 13,
+    "name": "Aman 3",
+    "img": "https://i.pravatar.cc/150?img=8",
+    "messages": [
+      { "text": "I pushed the code, please check.", "sender": "them" },
+      { "text": "Will review soon", "sender": "me" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Alexa 2",
+    "img": "https://i.pravatar.cc/150?img=10",
+    "messages": [
+      { "text": "Meeting at 5 PM, don't be late!", "sender": "them" },
+      { "text": "Okay ", "sender": "me" }
+    ]
+  },
+   {
+    "id": 15,
+    "name": "Aman 4",
+    "img": "https://i.pravatar.cc/150?img=8",
+    "messages": [
+      { "text": "I pushed the code, please check.", "sender": "them" },
+      { "text": "Will check it out", "sender": "me" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Alexa 3",
+    "img": "https://i.pravatar.cc/150?img=10",
+    "messages": [
+      { "text": "Meeting at 5 PM, don't be late!", "sender": "them" },
+      { "text": "Noted!", "sender": "me" }
+    ]
+  } 
+]

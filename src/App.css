@@ -1,0 +1,322 @@
+/* body{
+  background-color: black;
+} */
+.main {
+  height: 100vh;
+}
+
+/* Container */
+.search-box {
+  position: relative;
+  flex: 1;
+  /* margin-right: 10px; */
+  margin-left: 10px;
+}
+
+/* Icon */
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: gray;
+}
+
+/* Input */
+.search-input {
+  width: 100%;
+  padding: 8px 10px 8px 30px;
+  /* space for icon */
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: none;
+  color: black;
+}
+
+
+.dots {
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  transition: transform 0.2s ease;
+}
+
+.dots:active {
+  transform: scale(0.9);
+}
+
+/* Dropdown items */
+.item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  color: black;
+  transition: 0.2s;
+}
+
+/* Hover effect */
+.item:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Remove last border */
+.item:last-child {
+  border-bottom: none;
+}
+
+/* chat box css */
+/* Chat item container */
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: 0.2s;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+/* Hover effect */
+.chat-item:hover {
+  background-color: #f5f5f5;
+}
+
+.chat-dp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.chat-info {
+  margin-left: 10px;
+}
+
+/* Username */
+.chat-name {
+  font-size: 16px;
+  margin: 0;
+  color: black;
+}
+
+/* Message preview */
+.chat-message {
+  font-size: 13px;
+  color: gray;
+  margin: 0;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px; 
+}
+
+/* SCROLL */
+.chat-wrapper {
+  height: 96vh;
+  /* total box height */
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.chat-scroll {
+  flex: 1;
+  /* take remaining space */
+  overflow-y: auto;
+  /* ✅ only this scrolls */
+  padding: 10px;
+  min-height: 0;
+}
+
+/* Dropdown (you already have similar) */
+.dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+
+  opacity: 0;
+  transform: translateY(-10px) scale(0.95);
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+.dropdown.active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/*  Popup (Account / Settings) */
+.popup {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+
+  width: auto;
+  height: auto;
+
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none;
+  transition: all 0.25s ease;
+}
+
+/* smaller for settings */
+.popup.small {
+  width: auto;
+  height: auto;
+}
+
+/* show animation */
+.popup.show {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+.scroll{
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: red !important;
+}
+
+/* chat screen */
+/* Main chat screen layout */
+.chat-screen {
+  display: flex;
+  flex-direction: column;
+  height: 96vh;
+  /* border: 1px solid rgba(128, 128, 128, 0.219); */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.244); */
+  padding: 10px;
+  /* background-color: black; */
+}
+
+/* 🔹 HEADER (fixed top) */
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: #202c33;
+  color: white;
+  border-radius: 30px;
+
+  flex-shrink: 0; /* prevents shrinking */
+  border-bottom: 1px solid #2a3942;
+}
+
+/* Profile image */
+.chat-dp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Username */
+.chat-header h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* 🔹 MESSAGES AREA (scrollable center) */
+.chat-messages {
+  flex: 1; 
+  overflow-y: auto;
+  padding: 15px; 
+  background-color: rgba(128, 128, 128, 0.029);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-image: url(""); optional bg */
+}
+
+/* Message bubbles */
+.message {
+  max-width: 60%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+/* Sent messages (right side) */
+.message.me {
+  align-self: flex-end;
+  background-color: #005c4b;
+  color: white;
+}
+
+/* Received messages (left side) */
+.message.them {
+  align-self: flex-start;
+  background-color: #202c33;
+  color: white;
+}
+
+/* 🔹 INPUT (fixed bottom) */
+.chat-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+
+  padding: 10px;
+  background-color: #202c33;
+
+  flex-shrink: 0; /*  stays at bottom */
+  border-top: 1px solid #2a3942;
+}
+
+/* Input field */
+.chat-input input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Send button */
+.chat-input button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2a3942;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.chat-input button:hover {
+  background-color: rgb(1, 79, 1);
+}
+
+/* Scrollbar styling (optional) */
+.chat-messages::-webkit-scrollbar {
+  width: 5px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
